@@ -42,6 +42,3 @@ if(!frame)
 cvErode(frame, frame, 0, 2); // ADD this line
 cvShowImage("video", frame);
 }
-#include &lt;cv.h&gt;
-#include &lt;highgui.h&gt;
-
